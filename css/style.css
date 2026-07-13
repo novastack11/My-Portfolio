@@ -111,3 +111,19 @@ footer {
     color: #38bdf8;
     min-height: 40px;
 }
+audio,
+video,
+iframe{
+    width:100%;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+iframe{
+    height:500px;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+}
