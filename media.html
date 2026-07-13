@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educational Media</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="journey.html">Journey</a></li>
+        <li><a href="certificate.html">Certificates</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Educational Media</h1>
+    <p>Learning Resources</p>
+</header>
+
+<section>
+
+<h2>Educational Audio</h2>
+
+<audio controls>
+    <source src="audio/education-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<br><br>
+
+<h2>Educational Video</h2>
+
+<video controls width="100%">
+    <source src="video/education-video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<br><br>
+
+<h2>Educational YouTube Video</h2>
+
+<iframe
+width="100%"
+height="500"
+src="https://www.youtube.com/embed/zOjov-2OZ0E"
+title="Educational Video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+<br><br>
+
+<p>
+<a href="https://youtu.be/zOjov-2OZ0E?si=LdcYmn9WveLK3Mo5" target="_blank">
+Watch on YouTube
+</a>
+</p>
+
+</section>
+
+<footer>
+<p>&copy; <span id="year"></span> Sani Shehu | NovaStack Portfolio</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
